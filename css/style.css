@@ -236,7 +236,7 @@ ul
     height: 2.4px;
     width: 18px;
     background : var(--skin-color);
-    display: flex;
+    display: inline-block;
     position: relative;
 }
 .aside .nav-toggler.open span
@@ -775,10 +775,10 @@ h3.my-profession
 }
 @media (max-width:1199px) 
 {
-    /* .section .container
+    .section .container
     {
         padding-top: 70px;
-    } */
+    }
             .aside
             {
                 left: -270px;
