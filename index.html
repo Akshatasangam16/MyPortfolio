@@ -374,58 +374,53 @@ in class 10 boards(2019)</p>
                             </p>
                         </div>
                     </div>
+
                     <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
                     <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
                     <div class="row">
                         <div class="contact-form padd-15">
-                            <div class="row">
+                            <form action="https://formspree.io/f/xyyakell" method="POST">
+                                <div class="row">
+
+                               
+                                                <div class="form-item col-6 padd-15">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" placeholder="Your Name">                                                        
+                                                    </div>
+                                                </div>
+
+                                                <div class="form-item col-6 padd-15">
+                                                    <div class="form-group">
+                                                        <input type="email" class="form-control" placeholder="Email Id">                                                        
+                                                    </div>
+                                                </div>
+
+                                                
+                                            </div>
+                                            <div class="row">
+                                                <div class="form-item col-12 padd-15">
+                                                    <div class="form-group">
+                                                        <input type="text" class="form-control" placeholder="Subject">                                                       
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="form-item col-12 padd-15">
+                                                    <div class="form-group">
+                                                        <textarea name="" class="form-control" id="" placeholder="Message"></textarea>                                                       
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="form-item col-12 padd-15">
+                                                    <button type="submit" class="btn">Send Message</button>
+                                                </div>
 
 
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Name">
-                                        
-                                    </div>
-
-                                </div>
-
-                                <div class="form-item col-6 padd-15">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email">
-                                        
-                                    </div>
-
-                                </div>
-
-                                
-                            </div>
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Subject">
-                                        
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <div class="form-group">
-                                        <textarea name="" class="form-control" id="" placeholder="Message"></textarea>
-                                        
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="form-item col-12 padd-15">
-                                    <button type="submit" class="btn">Send Message</button>
-
-                                </div>
-                            </div> 
-
+                                </div>               
+                            </form>
 
                         </div>
                     </div>
@@ -459,5 +454,21 @@ in class 10 boards(2019)</p>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
     <script src="js/style-switcher.js"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "akshatacsangam@gmail.com",
+                Password: "AkshaOm1612#",
+                To: 'akshatacsangam@gmail.com',
+                From: "you@isp.com",
+                Subject: "This is the subject",
+                Body: "And this is the body"
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script> -->
 </body>
 </html>
